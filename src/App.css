@@ -1,5 +1,19 @@
 .App {
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+}
+.playerContainer{
+  width: 600px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
 }
 
 .App-logo {
@@ -36,3 +50,4 @@
     transform: rotate(360deg);
   }
 }
+
